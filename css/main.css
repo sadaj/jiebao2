@@ -1,0 +1,397 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100vh;
+	font-size: 10px;
+	font-family: "微软雅黑";
+}
+
+.wrap {
+	width: 100%;
+	height: 100vh;
+	position: relative;
+}
+.proload{
+	width: 100%;
+	height: 100vh;
+	z-index: 20;
+}
+.proload div:nth-child(1) {
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+	background-color: black;
+	top: 0;
+	left: 0;	
+}
+
+.proload img:nth-child(2) {
+	position: absolute;
+	width: 70.267%;
+	top: 46vh;
+	left: 14.8665%;	
+}
+.proload img:nth-child(3) {
+	position: absolute;
+	width: 17%;
+	top: 41vh;
+	left: 42%;	
+	z-index: 3;
+}
+#progress{
+	background-color: #5D1B27;
+	height: 5px;
+	width: 5%;
+	position: absolute;
+	left: 15%;
+	top: 46vh;
+	z-index: 2;
+}
+
+#perCent {
+	position: absolute;
+	top: 44.5vh;
+	left: 47%;
+	font-size: 1.4rem;
+	color: #741C2D;
+	z-index: 3;
+}
+
+
+
+
+.swiper2{
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+}
+.swiper2 .swiper-wrapper{
+	width: 100%;
+	height: 100vh;
+}
+.swiper2 .swiper-slide{
+	width: 100%;
+	height: 100vh;
+}
+.swiper2 .swiper-slide .pg1{
+	width: 100%;
+	height: 100%;
+	display: none;
+	position: relative;
+}
+.swiper2 .swiper-slide .pg2{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+/*.pg1 {*/
+	/*display: none;*/
+	/*width: 100%;*/
+	/*height: 100%;
+	position: relative;*/
+	/*overflow: scroll;*/
+/*}*/
+
+.pg1 img:nth-child(1) {
+	position: absolute !important;
+	top: 0 !important;
+	left: 0 !important;
+	width: 100% !important;
+	height: 100vh !important;
+}
+
+.pg1 img:nth-child(2) {
+	width: 2.53% !important;
+	position: absolute !important;
+	top: 57.5vh !important;
+	right: 11.5% !important;
+	z-index: 101 !important;
+}
+
+#message {
+	width: 16.8% !important;
+	top: 55vh !important;
+	right: 0 !important;
+	position: absolute !important;
+	z-index: 100 !important; 
+}
+
+#pg1arrow {
+	width: 8.4% !important;
+	bottom: 2vh !important;
+	left: 45.8% !important;
+	position: absolute !important;
+	z-index: 100 !important; 
+}
+#music{
+	position: absolute;
+	width: 10%;
+	z-index: 105;
+	top: 3vh;
+	right: 2%;
+}
+.pg2 {
+	width: 100% !important;
+	height: 100vh !important;
+	position: relative !important;
+	/*overflow: scroll;*/
+	/*display: none;*/
+}
+
+.pg2 img:nth-child(1) {
+	position: absolute !important;
+	top: 0 !important;
+	left: 0 !important;
+	width: 100% !important;
+	height: 100vh !important;
+}
+
+#pg2mesbtn {
+	position: absolute !important;
+	width: 22.267% !important;
+	left: 65.2% !important;
+	top: 66.5vh !important;
+	z-index: 100 !important; 
+}
+
+#pg2btn {
+	position: absolute !important;
+	width: 36.133% !important;
+	left: 31.9335% !important;
+	bottom: 22vh !important;
+	z-index: 100 !important; 
+}
+
+#mask,#mask2,#mask3,#mask4{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.85);
+	z-index: 3;
+	display: none;
+}
+
+#pump {
+	display: none;
+	position: absolute;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	left: 5%;
+	top: 5vh;
+	width: 90%;
+	padding-bottom: 2vh;
+	border: 3px solid #9F1B35;
+	z-index: 3;
+}
+
+#quit {
+	float: right;
+	display: block;
+	width: 9%;
+}
+
+#pump p:nth-child(2) {
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 4vh;
+	color: #9F1B35;
+	font-size: 1.4rem;
+	text-align: left;
+	font-weight: 700;
+}
+
+#pump div:nth-child(3),
+#pump div:nth-child(6),
+#pump div:nth-child(9) {
+	width: 90%;
+	margin: 0 auto;
+	text-align: left;
+	margin-top: 1vh;
+}
+
+#pump .place {
+	display: block;
+	width: 18.815%;
+}
+
+#pump .text {
+	width: 90%;
+	font-size: 1.2rem;
+	margin: 0 auto;
+	margin-top: 1vh;
+	color: white;
+}
+
+#pump .text1 {
+	width: 90%;
+	font-size: 1.2rem;
+	margin: 0 auto;
+	margin-top: 1vh;
+	color: #9F1B35;
+}
+
+#pump2 {
+	display: none;
+	position: absolute;
+	overflow: hidden;
+	left: 5%;
+	top: 10vh;
+	width: 90%;
+	padding-bottom: 3vh;
+	border: 3px solid #9F1B35;
+	z-index: 3 !important;
+	padding-top: 3vh;
+	top: 20vh;
+}
+
+#pump2 P:nth-child(1) {
+	width: 90%;
+	margin: 0 auto;
+	color: #9F1B35;
+	font-size: 1.4rem;
+	text-align: center;
+	font-weight: 500;
+}
+
+#pump2 div {
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 2vh;
+	height: 25px;
+}
+
+#pump2 label {
+	color: white;
+	width: 35%;
+	font-size: 1.4rem;
+	line-height: 25px;
+	float: left;
+	text-align: right;
+}
+
+#pump2 input {
+	color: white;
+	font-size: 1.4rem;
+	border: 1px solid #9F1B35;
+	margin-left: 2%;
+	width: 50%;
+	height: 25px;
+	background-color: transparent;
+}
+
+#pump2 #suB {
+	color: white;
+	font-size: 1.6rem;
+	font-weight: 500;
+	background-color: #9F1B35;
+	display: block;
+	margin: 0 auto;
+	margin-top: 2vh;
+	width: 30%;
+	height: 30px;
+	border-radius: 3px;
+	line-height: 30px;
+	text-align: center;
+	text-decoration: none;
+}
+
+#pump3 {
+	display: none;
+	position: absolute;
+	overflow: hidden;
+	left: 5%;
+	top: 10vh;
+	width: 90%;
+	padding-bottom: 3vh;
+	border: 3px solid #9F1B35;
+	z-index: 3;
+}
+
+#pump3 img:nth-child(1) {
+	width: 23%;
+	display: block;
+	margin: 0 auto;
+	margin-top: 5vh;
+}
+
+#pump3 p:nth-child(2) {
+	color: #9F1B35;
+	font-size: 1.6rem;
+	font-weight: 700;
+	text-align: center;
+}
+
+#pump3 p:nth-child(3) {
+	color: white;
+	font-size: 1.2rem;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 5vh;
+}
+
+#pump3 #return {
+	color: white;
+	font-size: 1.6rem;
+	font-weight: 500;
+	background-color: #9F1B35;
+	display: block;
+	margin: 0 auto;
+	margin-top: 2vh;
+	width: 30%;
+	height: 30px;
+	border-radius: 3px;
+	line-height: 30px;
+	text-align: center;
+	text-decoration: none;
+}
+
+#pg1pump{
+	position: absolute;
+	width: 90%;
+	top: 2.5vh;
+	left: 5%;
+	height: 95vh;
+	z-index: 5;
+	/*display: none;*/
+	visibility: hidden;
+	overflow: hidden;
+}
+
+.swiper-container {
+	width: 100%;
+	height: 100vh;
+}
+
+.swiper-wrapper {
+	width: 100%;
+	height: 100vh;
+	position: relative;
+}
+
+.swiper-slide {
+	width: 100%;
+	position: relative;
+}
+
+.swiper-slide img:nth-child(1) {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 8.74%;
+	z-index: 10;
+}
+
+.swiper-zoom img:nth-child(2) {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 95vh;
+}

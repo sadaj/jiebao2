@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<link rel="stylesheet" type="text/css" href="css/animate.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css" />
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title>滴滴一下 马上豹发</title>
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="proload">
+				<!--<img src="img/pro.png" />-->
+				<div></div>
+				<img src="img/tiao.png"/>
+				<img src="img/yuan.png"/>
+				<div id="progress"></div>
+				<span id="perCent">0%</span>
+			</div>
+			<audio id="bgsound" loop="loop" autoplay="autoplay" src="img/莫扎特：第40号交响曲.mp3">您的浏览器不支持 audio 标签。</audio>
+			<div class="swiper2">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="pg1">
+							<img src="img/jia.png" alt="" />
+							<img src="img/pg1.png" />
+							<img src="img/jia.png" alt="" class="animated pulse infinite" />
+							<img src="img/message.png" id="message" />
+							<img src="img/pg1arrow.png" id="pg1arrow" class="animated fadeInUp infinite" />
+							<img src="img/music.png" alt="" id="music" />
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="pg2">
+							<img src="img/pg2.png" alt="" />
+							<img src="img/pg2mesbtn.png" id="pg2mesbtn" />
+							<img src="img/pg2btn.png" alt="" id="pg2btn" />
+						</div>
+					</div>					
+				</div>
+				<div class="swiper-scrollbar"></div>
+			</div>
+			<div id="mask">
+			</div>
+			<div id="mask2">
+			</div>
+			<div id="mask3">
+			</div>
+			<div id="mask4">
+			</div>
+			<div id="pump">
+				<img src="img/quit.png" alt="" id="quit" />
+				<p>试驾活动指定区域</p>
+				<div><img src="img/bei.png" class="place" /></div>
+				<p class="text">国贸CBD：金桐东路、景恒街以东，通惠河北路以北，南郎家园以西，光华路以南</p>
+				<p class="text">金融街：阜成门外大街以南，西四南大街，西单北大街以西，复兴门内大街以北，地铁二号线以东</p>
+				<div class="place"><img src="img/shang.png" class="place" /></div>
+				<p class="text">陆家嘴：东起墨路、浦东南路、西至黄浦江边南起东昌路、北至黄浦江边 </p>
+				<p class="text">静安寺：常德路以西，乌鲁木齐北路以东，新闸路以南，延安高架以北</p>
+				<div><img src="img/guang.png" class="place" /></div>
+				<p class="text">天河珠江新城高德置地&IFC：花成路以南，珠江西路以西，西塔以北，华夏路以东</p>
+				<p class="text">天河东路太古汇&中信广场:天河路以北,天寿路,天河东路以西,体育西路以东,林和西横路以南</p>
+				<p class="text1">注： 活动期内同一个用户只享受一次活动车型免单，且不能与其他优惠同时使用；单次行程免单金额上限88元(30分钟or10公里)，超出部分由用户自行承担</p>
+			</div>
+			<div id="pump2">
+				<p>填写信息即有机会享受捷豹XFL上门试驾，还有机 会赢取神秘礼品。不要错过哦！</p>
+				<form action="">
+					<div>
+						<label for="">姓名:</label><input type="text" />
+					</div>
+					<div>
+						<label for="">年龄:</label><input type="text" />
+					</div>
+					<div>
+						<label for="">联系方式:</label><input type="text" />
+					</div>
+					<div>
+						<label for="">所在城市:</label><input type="text" />
+					</div>
+					<a href="###" id="suB">确认提交</a>
+				</form>
+			</div>
+			<div id="pump3">
+				<img src="img/true.png" alt="" />
+				<p>提交成功</p>
+				<p>如想体验专享上门试驾,请返回试驾按钮,点击试驾</p>
+				<a href="###" id="return">点击返回</a>
+			</div>
+			<div id="pg1pump">
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide swiper-zoom"><img src="img/pg1qute.png" alt="" class="pg1qute" /><img src="img/lunboimg1.png" /></div>
+						<div class="swiper-slide swiper-zoom"><img src="img/pg1qute.png" alt="" class="pg1qute" /><img src="img/lunboimg2.png" /></div>
+						<div class="swiper-slide swiper-zoom"><img src="img/pg1qute.png" alt="" class="pg1qute" /><img src="img/lunboimg3.png" /></div>
+						<div class="swiper-slide swiper-zoom"><img src="img/pg1qute.png" alt="" class="pg1qute" /><img src="img/lunboimg4.png" /></div>
+					</div>
+					<div class="swiper-pagination"></div>
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"></div>
+					<div class="swiper-scrollbar"></div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/jquery-1.11.2.min.js" type="text/javascript" charset="utf-8"></script>
+	<!--<script src="js/touch.js" type="text/javascript" charset="utf-8"></script>-->
+	<script src="js/yujiazai.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">	    			
+			var mySwiper = new Swiper('.swiper2', {
+			direction: 'vertical',
+			loopAdditionalSlides: 0,
+			pagination: '.swiper-pagination',
+			paginationClickable: true,
+//			nextButton: '.swiper-button-next',
+//			prevButton: '.swiper-button-prev',
+			scrollbar: '.swiper-scrollbar',
+
+		})
+	</script>
+
+</html>
