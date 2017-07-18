@@ -13,8 +13,11 @@ body {
 
 .wrap {
 	width: 100%;
+	background-color: #000000;
 	height: 100vh;
 	position: relative;
+	overflow-x: hidden;
+	overflow-y: scroll;
 }
 .proload{
 	width: 100%;
@@ -34,6 +37,7 @@ body {
 	position: absolute;
 	width: 70.267%;
 	top: 46vh;
+	height: 5px;
 	left: 14.8665%;	
 }
 .proload img:nth-child(3) {
@@ -173,7 +177,7 @@ body {
 	left: 0;
 	bottom: 0;
 	right: 0;
-	background-color: rgba(0, 0, 0, 0.85);
+	background-color: rgba(0, 0, 0, .85);
 	z-index: 3;
 	display: none;
 }
@@ -183,24 +187,33 @@ body {
 	position: absolute;
 	overflow-y: scroll;
 	overflow-x: hidden;
-	left: 5%;
+	/*left: 3%;*/
+	left: 3%;
 	top: 5vh;
-	width: 90%;
+	width: 94%;
+	font-size: 0px;
+	/*width: 600px;*/
+	/*height: 930px;*/
 	padding-bottom: 2vh;
+	margin-bottom:25px;
 	border: 3px solid #9F1B35;
 	z-index: 3;
 }
-
-#quit {
-	float: right;
+#pump img{
+	width: 100%;
+}
+#pump #quit {
+	position: absolute;
+	right: 0;
+	top: 0;
 	display: block;
 	width: 9%;
 }
 
 #pump p:nth-child(2) {
-	width: 90%;
+	width: 94%;
 	margin: 0 auto;
-	margin-top: 4vh;
+	margin-top: 5vh;
 	color: #9F1B35;
 	font-size: 1.4rem;
 	text-align: left;
@@ -208,32 +221,32 @@ body {
 }
 
 #pump div:nth-child(3),
-#pump div:nth-child(6),
-#pump div:nth-child(9) {
-	width: 90%;
+#pump div:nth-child(8),
+#pump div:nth-child(13) {
+	width: 96%;
 	margin: 0 auto;
 	text-align: left;
-	margin-top: 1vh;
+	margin-top: 5px;
 }
 
 #pump .place {
 	display: block;
-	width: 18.815%;
+	width: 20%;
 }
 
 #pump .text {
-	width: 90%;
+	width: 96%;
 	font-size: 1.2rem;
 	margin: 0 auto;
-	margin-top: 1vh;
+	margin-top: 5px;
 	color: white;
 }
 
 #pump .text1 {
-	width: 90%;
+	width: 96%;
 	font-size: 1.2rem;
 	margin: 0 auto;
-	margin-top: 1vh;
+	margin-top: 5px;
 	color: #9F1B35;
 }
 

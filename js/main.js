@@ -8,12 +8,12 @@
 		prevButton: '.swiper-button-prev',
 		scrollbar: '.swiper-scrollbar',
 	})
-	var arr = ['pro.png','2.png','bei.png', 'guang.png', 'lunboimg1.png', 'lunboimg2.png', 'lunboimg3.png', 'lunboimg4.png', 'mask.png', 'message.png', 'pg1.png', 'pg1arrow.png', 'pg1qute.png', 'pg2.png', 'pg2btn.png','pg2mesbtn.png', 'quit.png', 'shang.png', 'true.png'];
+	var arr = ['pro.png','2.png','shen.png', 'hangzhou.png', 'neishi1.jpg', 'neishi2.jpg', 'neishi3.jpg', 'neishi4.jpg', 'mask.png', 'message.png', 'pg1.png', 'pg1arrow.png', 'pg1qute.png', 'pg2(12.12).png', 'pg2btn.png','pg2mesbtn(12.12).png', 'quit.png', 'cheng.png', 'true.png'];
 	$(document).fnLoad(arr);
 //	$("#pg1pump").hide();	
 	 var bgsound = document.getElementById("bgsound");	 
 			$('html').one('touchstart',function(){
-			    bgsound.play();
+//			    bgsound.play();
 			});
 	$("#music").on("click",function(){
 		if($(this).attr("src")=="img/musicclose.png"){
